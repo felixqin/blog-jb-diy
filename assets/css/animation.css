@@ -1,0 +1,93 @@
+@-moz-keyframes rotate {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+/* Firefox */
+@-moz-keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+/* Opera */
+@-o-keyframes up-down {
+    0% {
+        top: 0px;
+    }
+    20% {
+        top: 120px;
+    }
+    50% {
+        top: 20px;
+    }
+    70% {
+        top: 100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
