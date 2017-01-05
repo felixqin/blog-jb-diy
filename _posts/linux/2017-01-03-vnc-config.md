@@ -4,8 +4,6 @@ category : Linux系统维护
 tagline: "Supporting tagline"
 tags : [linux, Archlinux, 教程]
 ---
-{% include JB/setup %}
-
 
 # Archlinux 配置 VNC 要点
 
@@ -16,7 +14,7 @@ xstartup 内需要启动 dbus，否则桌面启动不成功。
 ~/.vnc/xstartup 文件内容：
 
 
-```
+```sh
 
 #!/bin/sh
 
@@ -31,7 +29,6 @@ autocutsel -fork
 
 exec startxfce4
 #exec startlxqt
-
 
 ```
 
